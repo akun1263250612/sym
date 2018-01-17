@@ -1,0 +1,447 @@
+ 
+ body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, fieldset, legend, button, input, textarea, th, td { margin:0; padding:0; }
+body, button, input, select, textarea { font:12px/1.5tahoma, arial, \5b8b\4f53; }
+h1, h2, h3, h4, h5, h6{ font-size:100%; }
+address, cite, dfn, em, var { font-style:normal; }
+code, kbd, pre, samp { font-family:couriernew, courier, monospace; }
+small{ font-size:12px; }
+ul, ol { list-style:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+sup { vertical-align:text-top; }
+sub{ vertical-align:text-bottom; }
+legend { color:#000; }
+fieldset, img { border:0; }
+button, input, select, textarea { font-size:100%; }
+table { border-collapse:collapse; border-spacing:0; }  
+  
+
+         ul {
+				margin: 0;
+				padding: 0;
+				font-family: "微软雅黑";
+				overflow: hidden;
+				list-style: none;
+			}
+			a{
+				text-decoration: none;
+			}
+			
+			#head {
+				height: 80px;
+				width: 1220px;
+				position: relative;
+				
+				margin:0 auto;
+			}
+			#wire{
+				width:100%;
+				height: 2px;
+				background: #CFCFCF;
+			}
+			#head_left {
+				width: 280px;
+				height: 80px;
+				left: 0px;
+				position: absolute;
+			}
+			
+			#head_center {
+				list-style: none;
+				width: 610px;
+				height: 40px;
+				position: absolute;
+				left: 300px;
+				top: 20px;
+				line-height: 40px;
+			}
+			
+			#head_center li {
+				float: left;
+				width: 60px;
+				height: 20px;
+				text-align: center;
+				font-size: 15px;
+				padding: 0px 15px;
+			}
+			#head_center a{
+				color: #7A7A7A;
+			}
+			
+			#head_right {
+				width: 300px;
+				height: 30px;
+				position: absolute;
+				left:760px;
+				top: 25px;
+			}
+			
+			#head_right li {
+				list-style: none;
+				float: left;
+				position: relative;
+				
+			}
+			
+			#h_inp {
+				width: 120px;
+				height:20px;
+				
+			}
+			 #inp_pic{
+				width:25px;
+				height:20px;
+				background:url(../img/log_head3.jpg);
+				position: absolute;
+				top: 1px;
+				left:90px;
+			}
+			#hr_li{
+				width:25px;
+				height: 25px;
+				margin-left:15px;
+			}
+			#shop_log{
+				width: 26px;
+				height: 25px;
+				background:url(../img/log_head2.jpg);
+				position: absolute;
+			}
+			#hr_li2{
+				margin-left:25px;
+			}
+			#hr_li2 a{
+				text-decoration: none;
+				font-size:14px;
+				color:#BAB9B9;
+				
+			}
+
+        
+   
+   
+         /* 轮播图  */
+ 
+  #sy_lunbao{
+	        width:1220px;
+	       margin: 0 auto;
+	        position: relative;
+            }
+  .sy_lbk li{position: absolute;display: none;}
+  .sy_lbk li img{
+  	               width:100%;
+     }
+  .sy_lbk li:nth-child(1){display: block;} 
+  
+  .k{
+  	            position: absolute;
+  	             right: 50%;
+  	             top:350px;
+  	            z-index: 11;
+  	         }
+  .k li{
+	float: left;
+	display: inline-block;
+	height: 15px;width: 15px;
+	border: 2px solid #acacac;
+	border-radius: 10px;
+	background: #fff;
+	margin-right: 10px;
+	opacity: 0.8;
+	cursor: pointer;
+      }
+   .ko{background: red!important;border: 2px solid #fff;}       
+   
+   
+   #sy_box3{
+   	        width:100%;
+   	        position: relative;
+   	        top:330px;
+   	       
+   }
+  
+  
+  /* 高晶石*/ 
+    #sy_gjs{
+  	         width:1220px;
+             border:1px solid blue;
+             margin:0 auto;
+             margin-top: 50px;
+  	         position: relative;
+             
+           } 
+     
+  
+  #sy_gjs ul li{
+  	            float:left; 
+  	            padding: 10px;
+  	            position: relative;
+  	            cursor: pointer;
+  	            
+            }
+  #sy_gjs ul li a{
+  	           text-decoration: none;
+             }
+     #pak{
+        	position: absolute;
+	        left:10px;
+	        bottom: 12px;
+	        width:484px;
+	        height: 0px;
+	        line-height: 45px;
+	        text-align: center;
+	        color: #fff;
+	        background: rgba(0,0,0,0.6);
+          }
+   #pak h4{
+     	    margin-top: 100px;
+     	    margin-bottom: 60px;
+   	        font-size: 30px;
+      	    font-weight: normal;
+         }  
+    
+     #psk{
+        	position: absolute;
+	        left:10px;
+	        bottom: 13px;
+	        width:695px;
+	        height: 0px;
+	        line-height: 45px;
+	        text-align: center;
+	        color: #fff;
+	        background: rgba(0,0,0,0.6);
+          }     
+      
+     #psk h4{
+  	        line-height: 100px;
+   	        font-size: 30px;
+      	    font-weight: normal;
+      	  }   
+   #pak p{
+	        font-size: 18px;
+	        width:400px;
+	        display: block;
+	        line-height: 30px;
+	        margin-left: 50px;
+	      
+         }      
+            
+         
+  
+
+  /*喷墨漆*/
+   #sy_pmc{
+  	         width:1220px;
+  	         border:1px solid green;
+  	         margin: 0 auto;
+  	         position:relative;
+  	         
+           } 
+    
+   #sy_pmc ul li{
+   	             position:relative;
+   	              float:left;
+                 padding: 5px;
+                }
+     
+      #pmc-1 img{
+         	     width:405px;
+         	     height: 338px;
+         	     
+           }
+     .pmc_1{
+     	         width:405px;
+         	     height: 338px;
+         	     position: absolute;
+     	         border:1px solid red;
+     	         display: none;
+     	
+           }
+     .pmc_2{
+     	         width:390px;
+         	     height: 338px;
+         	     position: absolute;
+     	         border:1px solid red;
+     	         display: none;
+     
+           }
+    .pmc_3{
+     	         width:358px;
+         	     height: 337px;
+         	     position: absolute;
+     	         border:1px solid red;
+     	        display: none;
+     	
+           }
+      #pmc-1 h4{
+      	         position: absolute;
+      	         left:37%;
+      	         bottom:13%;
+      	         font-weight: normal;
+      	         color:#999999;
+      	         display: block;
+          }
+     #pmc-1 p{
+      	         position: absolute;
+      	         left:30%;
+      	         bottom:5%;
+      	         color:#999999;
+      	         display: block;
+          }
+      
+            
+                
+  /*新闻*/            
+   #sy_xw{
+  	         width:1220px;
+  	         height: 300px;
+  	         border:1px solid red;
+  	          margin: 10px auto;
+  	         position:relative;
+  	          top:320px;
+  	          background:#F2F0F0;
+  	        
+  	        
+           } 
+    #sy_xw_y{
+    	     width:1220px;
+  	        /* border:1px solid red;*/
+  	        
+  	      /*   position:absolute;*/
+  	         
+    } 
+           
+  #sy_xw_y div{
+   	       
+   	       margin-left: 30px;
+    	   float:left;
+    	
+     }  
+      h3{
+      	 font-weight: normal;
+      	 font-size: 20px;
+      	 color:RGB(51,51,51);
+      	 line-height: 40px;
+      }  
+       #hk{
+       	     margin-left: 73px;
+       }
+    
+  
+    
+     #pok2 ul li{
+     	  margin-left: 30px;
+    	  float:left;
+     }  
+    #pok2_1{
+   	       margin-left: 45px;
+   	     /* background: red;*/
+   	     }
+ 
+    #pokl ul li{
+    	         height:60px;
+    	
+       }
+    #pokl p{
+    	       
+    	     line-height: 20px;  
+    	
+           }  
+   #sy_xw span{
+   	              color:RGB(153,153,153);
+   	              font-size: 13px;
+   	           
+          } 
+   #sy_xw p a{
+   	           color:RGB(102,102,102);
+   	           font-size: 16px;
+            }  
+   #sy_xw p a:hover{
+    	       color:red;
+           }
+       
+  
+   
+   
+   
+   /*底部*/
+   #sy_xp{
+  	         width:1220px;
+  	         background: #202020;
+             border:1px solid green;
+             margin:0 auto;
+             margin-bottom: 0;
+  	         position: relative;
+  	         top:330px;
+  	       
+           } 
+   
+   #end{
+   	
+	       	    width:1220px;
+				height:250px;
+				position: relative;
+				/*background: #202020;*/
+				
+				
+				
+			}
+			#end_one{
+				width:825px;
+				height:170px;
+				
+				position:absolute;
+				left:100px;
+				top:30px;
+			}
+			#end_one ul{
+				float: left;
+				margin-left:60px;
+			}
+			#end_one ul span{
+				font-size:14px;
+			}
+			#end_one ul a{
+				color:#B5B5B5;
+			}
+			#end_one li{
+				width:70px;
+				font-size: 13px;
+				padding:2px 0;
+				
+			}
+			#end_log{
+				width:32px;
+				height:32px;
+				background:url(../img/log_end.jpg);
+				position: absolute;
+				
+			}
+			#end_log2{
+				width:62px;
+				height:65px;
+				position:absolute;
+				top:70px;
+				background:url(../img/log_end2.jpg);
+			}
+			#end_tow{
+				width:860px;
+				height:20px;
+				
+				position:absolute;
+				top:200px;
+				left:110px;
+				line-height: 20px;
+			}
+			#end_tow span{
+				font-size:13px;
+				color:#B5B5B5;
+			}
+			.end_sp{
+				margin-left:25px;
+			}
+  
+           
+           
+           
+                
